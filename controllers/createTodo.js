@@ -2,7 +2,7 @@ const Todo = require('../models/Todo');   //here we are importing model from the
 
 
 //define route handler
-async function createTodo(req, res) {
+exports.createTodo = async (req, res) => {
 
     try{
         //extracting data form request body
@@ -34,4 +34,4 @@ async function createTodo(req, res) {
     }
 }
 
-module.exports = createTodo
+ 
