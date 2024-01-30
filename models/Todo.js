@@ -6,11 +6,13 @@ const todoschema = new mongoose.Schema(
             type:String,
             required:true,
             maxlength:50
+            // maxLength:50
         },
         description:{
             type:String,
             required:true,
             maxlength:50
+            // maxLength:50
         },
         createdAt:{
             type:Date,
