@@ -20,6 +20,8 @@ app.use("/api/v1",totoRoutes);      // this code sets up a route prefix "/api/v1
 
 
 
+
+
 //start server
 app.listen(PORT,()=>{
     console.log(`Server running on port no...  ${PORT}`);
@@ -35,7 +37,8 @@ dbConnect();
  
 //default route
 app.get("/",(req,res)=>{
-    res.send(`<h1>This is home page  </h1>`)
+    res.send(`<h1>This is home page baby... </h1>`)
+  
     
 })
 
